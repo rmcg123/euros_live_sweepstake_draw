@@ -11,7 +11,7 @@ import src.euros_draw_config as cfg
 load_dotenv(".env")
 
 
-def make_draw(print_locally=True):
+def make_draw(print_locally=False):
     """Main function for making the draw"""
 
     entrants_names = [
